@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "driver": "fanuc_mill",
+  "machine_tool": "mill_3axis",
+  "machine_tool_id": "FANUC3X",
+  "machine_tool_type": "mill",
+  "extras": {
+    "cnc_probe": false,
+    "pallet_changer": false
+  },
+  "machine_points_data": {
+    "tool_exchange_point": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 500.0
+    },
+    "machine_base_point": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 500.0,
+      "I": 0.0,
+      "J": 0.0,
+      "K": 0.0
+    }
+  },
+  "kinematics": {
+    "cartesian_system_axis": {
+      "X": {
+        "range_min": -500.0,
+        "range_max": 500.0
+      },
+      "Y": {
+        "range_min": -500.0,
+        "range_max": 500.0
+      },
+      "Z": {
+        "range_min": -1000.0,
+        "range_max": 1000.0
+      }
+    },
+    "max_working_feed": 20000.0,
+    "max_fast_feed": 20000.0,
+    "maximum_spindle_speed": 10000,
+    "numer_of_items_in_the_warehouse": 30,
+    "tool_exchange_time": 6,
+    "pallet_exchange_time": 0,
+    "tool_measurement_time": 0,
+    "diameter_programming_2x": false,
+    "auto_measure_after_tool_selection": false,
+    "pallet_exchange_code": "",
+    "pallet_exchange_code_value": "",
+    "tool_measurement_code": "",
+    "tool_measurement_code_value": ""
+  },
+  "cnc_default_values": {
+    "default_motion": "rapid_traverse",
+    "default_work_plane": "XY",
+    "default_driver_units": "millimeter",
+    "default_programming": "absolute",
+    "default_feed_mode": "feed_per_minute",
+    "default_rotation_direction": "right",
+    "drill_cycle_z_value": "absolute",
+    "drill_cycle_return_value": "beginning",
+    "default_rotation": 1000,
+    "rapid_traverse_cancel_cycle": false,
+    "linear_interpolation_cancel_cycle": false,
+    "circular_interpolation_cw_cancel_cycle": false,
+    "circular_interpolation_ccw_cancel_cycle": false,
+    "cycle_cancel_starts_rapid_traverse": false,
+    "operator_turns_on_rotation": false,
+    "tool_number_executes_exchange": false,
+    "auto_rapid_traverse_after_tool_exchange": false
+  },
+  "author": {
+    "name": "",
+    "surname": "",
+    "position": "",
+    "department": "",
+    "phone1": "",
+    "phone2": "",
+    "email": "",
+    "other": "",
+    "document_header": "",
+    "document_footer": "",
+    "comment": "",
+    "working_time_at_end": false
+  },
+  "zero_point": {
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0
+  }
+}
