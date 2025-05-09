@@ -1,0 +1,24 @@
+%
+
+O758303 (Fasning)
+(X-30 Y30 Z34)
+
+G91 Z-2
+G90
+
+G41 G01 X0 Y0 D7
+X35
+Y-35
+X0
+Y30
+G40 X-30 Y30
+
+G91 Z2
+
+G90
+
+M00 (Dokumentation)
+
+M99
+
+%
