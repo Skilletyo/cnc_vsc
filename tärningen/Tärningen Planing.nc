@@ -9,7 +9,7 @@ G91 G00 Z1
 G90 X-22
 
 G91 G00 Z150 
-M00 (Paus: Kör inte spegelvända sidor)
+M00 (Paus: Kör ej spegelvända sidor)
 G00 Z-150
 G90
 

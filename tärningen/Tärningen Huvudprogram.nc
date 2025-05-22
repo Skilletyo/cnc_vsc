@@ -11,7 +11,6 @@ G40
 G54
 
 (Verktygsbyte)
-(Verktygslängdskompensation)
 
 T01 M06
 S1500 M03
@@ -31,7 +30,7 @@ M98 P75830103
 G91 G00 Z-1
 G90
 
-(Skrota till 35x35x35)
+(Skrota)
 
 M98 P75830203
 
