@@ -7,23 +7,22 @@ O758300 (Tärningen)
 
 G90
 G80
-
 G40
 G54
 
 (Verktygsbyte)
+(Verktygslängdskompensation)
 
-T07 M06
+T01 M06
 S1500 M03
+G43 H11
 
 (Positionering)
-(Verktygslängdskompensation)
-(Offset på variabel 17)
 
-G00 X-22 Y-20
-G43 Z40 H17
+G00 X-22 Y-20 
+Z40
 
-(Plana 3 sidor)
+(Plana)
 
 M98 P75830103
 
@@ -46,7 +45,8 @@ M98 P75830304
 
 (Byte till borr)
 
-T11 M06
+T02 M06
+G43 H12
 S800 M03
 
 (Borrning)
@@ -54,8 +54,7 @@ S800 M03
 (Ettan)
 
 G00 X17.5 Y-17.5
-
-G43 Z37 H11
+Z37
 
 G81 Z34 F0.23
 G80

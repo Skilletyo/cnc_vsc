@@ -5,20 +5,17 @@ O758303 (Fasning)
 
 G91 Z-2
 G90
-
-G41 G01 X0 Y0 D7
+G41 D7
+G01 X0 Y0 
 X35
 Y-35
+G42
 X0
 Y0
 G40 X-30 Y30
-
 G91 Z2
-
 G90
-
-M00 (Dokumentation)
-
+M00 (Paus)
 M99
 
 %
