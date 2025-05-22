@@ -5,7 +5,7 @@ O758303 (Fasning)
 
 G91 Z-2
 G90
-G41 D7
+G41 D11
 G01 X0 Y0 
 X35
 Y-35
